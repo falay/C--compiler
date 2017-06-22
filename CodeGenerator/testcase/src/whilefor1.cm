@@ -1,0 +1,30 @@
+#pragma source off
+#pragma token off
+#pragma symbol off
+
+int Function(int a,int b,int x)
+{
+	return a ;
+}
+
+void whilefor1()
+{
+    bool a;
+    
+    while(a){
+    }
+	
+
+   do{
+		for(;;)
+			print "hello" ;
+    }while(a);
+	
+    int i ;
+    for(i=0; i<10; i=i+1)
+    {	print i ;
+    }
+
+	int c = Function(1,2,3) ;
+	print c;
+}

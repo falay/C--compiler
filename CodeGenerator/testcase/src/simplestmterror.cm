@@ -1,0 +1,16 @@
+#pragma source off
+#pragma token off
+#pragma symbol on
+
+int func();
+int main()
+{
+    func() = 123;
+    return 0;
+}
+
+
+int func()
+{
+    return 32;
+}

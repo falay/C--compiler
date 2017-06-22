@@ -1,0 +1,31 @@
+#pragma source off
+#pragma token off
+#pragma symbol off
+
+/**
+bool func1(int x, int y[2][8], string z);
+string func2(bool a);
+void func3(); // procedure
+void func4(double b); // procedure
+int func5();
+**/
+
+//int Array[10] ;
+
+//int a = -Array[35*10-8*Array[0]];
+
+void main()
+{
+        int a,b;
+//a = 3 + true ;
+        a = 1+1;
+        a = -a+a;
+        a = a-3*4;
+        b = a*11;
+        b = a/b;
+        a = -b/3;
+        b = 12345 % a;
+		print a;
+		print b;
+   //     return 0;
+}
