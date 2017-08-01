@@ -1,4 +1,4 @@
-C-- Compiler
+# C-- Compiler
 
 Introduction
 ------------
@@ -31,8 +31,8 @@ to compile the source
 It generates java bytecode which is a stack machine code,
 using jasmin package to generate the assembly code from the bytecode.
 
-```
 Script to run
+```
 make
 sh runner.sh target.j
 ```
